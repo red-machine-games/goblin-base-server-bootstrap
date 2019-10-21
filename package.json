@@ -1,0 +1,14 @@
+{
+    "name": "goblin-base-server-bootstrap",
+    "version": "0.1.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Andrew Medvedev <andrew.medvedev.nh@gmail.com>",
+    "license": "MIT",
+    "dependencies": {
+        "goblin-base-server": "0.1.0"
+    }
+}

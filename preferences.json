@@ -1,0 +1,11 @@
+{
+    "START_AT_HOST": "127.0.0.1", "START_AT_PORT": 1337,
+
+    "MONGODB_HOST": "127.0.0.1", "MONGODB_PORT": 27017, "MONGODB_DATABASE_NAME": "goblin-base-dev",
+
+    "REDIS_HOST": "127.0.0.1", "REDIS_PORT": 6379,
+
+    "HMAC_SECRET": "default",
+
+    "TURN_ON_CORS": true
+}

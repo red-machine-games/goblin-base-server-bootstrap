@@ -1,0 +1,15 @@
+{
+    "apps": [{
+        "name": "Goblin Base Server Bootstrap",
+        "script": "index.js",
+        "exec_interpreter": "node",
+        "exec_mode": "fork",
+        "node_args": "--max-old-space-size=256",
+        "max_memory_restart": "300M",
+        "merge_logs": true,
+        "watch": true,
+        "wait_ready": true,
+        "autorestart": true,
+        "max_restarts": 99999999
+    }]
+}

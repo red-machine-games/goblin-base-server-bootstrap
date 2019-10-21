@@ -1,0 +1,1 @@
+PvpResponse(args.theModel.gameIsOver ? true : null);
