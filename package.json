@@ -9,6 +9,6 @@
     "author": "Andrew Medvedev <andrew.medvedev.nh@gmail.com>",
     "license": "MIT",
     "dependencies": {
-        "goblin-base-server": "0.1.0"
+        "goblin-base-server": "^0.1.0"
     }
 }
