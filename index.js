@@ -9,6 +9,7 @@ var goblinBase;
 function configure(){
     goblinBase = GoblinBase.getGoblinBase()
         .hookLogs({ info: console.log, warn: console.log, error: console.error, fatal: console.error })
+        .hookCloudFunctionsLogs({ info: console.log, warn: console.log, error: console.error, fatal: console.error })
         .configureDatabase({ connectionUrl: `mongodb://${PREFS.MONGODB_HOST}:${PREFS.MONGODB_PORT}/${PREFS.MONGODB_DATABASE_NAME}` })
         .configureRedis(new GoblinBase.RedisConfig()
             .setupSessionsClient(PREFS.REDIS_HOST, PREFS.REDIS_PORT, { db: 0 })
