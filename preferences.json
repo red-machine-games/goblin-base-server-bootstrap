@@ -7,5 +7,5 @@
 
     "HMAC_SECRET": "default",
 
-    "TURN_ON_CORS": true
+    "TURN_ON_CORS": false
 }
