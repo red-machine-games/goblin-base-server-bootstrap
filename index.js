@@ -31,7 +31,7 @@ function configure(){
             physicalHost: '127.0.0.1',
             physicalPort: 7332,
             displayPortWs: 7331,
-            displayPortWss: 7333,
+            displayPortWss: 0,
             shareIPAddress: true,
             bindUdpOnPort: 54321,
             pairsCapacity: 50,
