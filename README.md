@@ -4,12 +4,12 @@
 </p>
 
 <p align="center">
-  Goblin Base Server is an open source backend based on Node.js, Redis and MongoDB made for game/web/apps developers. It's scalable enough to cover thousands of requests per second, tens of thousands DAU, and provide comfortable realtime multiplayer for growing player base.
+  Goblin Base Server is an open-source backend based on Node.js, Redis and MongoDB made for game/web/apps developers. It's scalable enough to cover thousands of requests per second, tens of thousands DAU, and provide a comfortable realtime multiplayer for a growing player base.
 </p>
 
 ---
 
-This repository represents basic usage of Goblin Base Server implementing it with default configurations and default set of Cloud Functions.
+This repository represents basic usage of Goblin Base Server implementing it with default configurations and a default set of Cloud Functions.
 
 ## This is a good point to start working with Goblin Base Server
 
@@ -31,7 +31,7 @@ This repository represents basic usage of Goblin Base Server implementing it wit
 
 ## Cloud functions
 
-All cloud functions are stored at `cloudFunctions` directory of repository. You can put your own - they will be catched up automatically. Don't make subdirectories - or just modify `index.js` code to scan subdirectories too.
+All cloud functions are stored at `cloudFunctions` directory of the repository. You can put your own - they will be caught up automatically. Don't make subdirectories - or just modify `index.js` code to scan subdirectories too.
 
 ### Use this repository as a starting point to discover Goblin Tech stack
 
@@ -39,4 +39,4 @@ All cloud functions are stored at `cloudFunctions` directory of repository. You 
  - Documentation: https://gbase.tech/doc
 
 # LICENSE
-License of this particular perository: MIT
+License of this particular repository: MIT
