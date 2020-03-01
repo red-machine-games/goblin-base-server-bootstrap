@@ -36,7 +36,7 @@ All cloud functions are stored at `cloudFunctions` directory of the repository. 
 ### Use this repository as a starting point to discover Goblin Tech stack
 
  - Goblin Base Server's repository: https://github.com/red-machine-games/goblin-base-server
- - Documentation: https://gbase.tech/doc
+ - Documentation: https://goblinserver.com/doc
 
 # LICENSE
 License of this particular repository: MIT
